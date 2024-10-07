@@ -256,3 +256,6 @@ insert into scooters values
 
 insert into scooters values
 (30,530,248,16,'YAMAHA-TMAX','parallel-twin_cinder',110,110000,750,4,201);
+
+
+hgshghsgdhsgdhsgdhowouewuowueo
