@@ -251,11 +251,3 @@ insert into scooters values
 (4,155,162,7,'YAMAHA-TRICITY-155','single_cylinder',105,145000,8000,4,2014),
 (5,292,193,13,'YAMAHA-TRICITY-300','single_cylinder',135,3,7250,4,2020);
 
-
-
-
-insert into scooters values
-(30,530,248,16,'YAMAHA-TMAX','parallel-twin_cinder',110,110000,750,4,201);
-
-
-
