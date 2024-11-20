@@ -1,1 +1,271 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task 4</title>
+    <link rel="stylesheet" href="style.css">
 
+</head>
+<body background="istockphoto-844226534-612x612 (1).webp">
+    <div class="bg">
+        <h1 ><a href="">Home<img src="home-button.png" alt="Home" width=25px></a></h1><label ></label>
+
+    <ul>
+        <li><a href="#">About us <img src="team.png" alt="team" width="25px"></a></li>
+        <li><a href="#">Caeers <img src="goal.png" alt="goal" width="25px"></a></li>
+        <li class="in"><a href="#">Contact us <img src="phone.png" alt="phone" width="25px"></a></li>
+    </ul>
+    <label class="he"><a href="">Help <img src="help-desk.png" alt="help" width="25px"></a></label>
+
+
+
+<main  class="main">
+
+  <form action="task2.html">
+  <h1 id="Form">FORM--</h1>
+  <div class="name">
+    <label for="n">Name:</label><br>
+    <input type="text" placeholder="Enter a Name" required  id="n">
+  </div>
+  <div class="password">
+    <label for="p">password:</label><br>
+    <input type="password" placeholder="Enter a password"  required id="p">
+  </div>
+   <div class="mobile">
+    <label for="m">M-Number:</label> <br>
+    <input type="tel" pattern="12345-678910" placeholder="12345-678910" required id="m">
+
+  </div>
+<input type="submit" class="submit" >
+</form>  
+
+
+</main>
+<br>
+<br>
+<br>
+<br><br><br><br><br><br><br><br><br><br><br><br>
+<table>
+  <tr>
+    <th>One</th> <th>two</th> <th>three</th> <th>four</th><th>five</th>
+  </tr>
+  <tr>
+    <td>1</td><td>2</td><td>3</td><td>4</td><td>5</td>
+  </tr>
+  <tr>
+    <td>a</td><td>b</td><td>c</td><td>d</td><td>e</td>
+  </tr>
+  <tr>
+    <td>!</td><td>@</td><td>#</td><td>$</td><td>%</td>
+  </tr>
+  <tr>
+    <td>0</td><td>9</td><td>8</td><td>7</td><td>6</td>
+  </tr>
+</table>
+<br><br><br><br><br><br><br><br><br><br><br><br>
+<hr color="background">
+
+<footer>
+<div class="foot">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt ad eius harum distinctio officiis quis, quos nobis corrupti laboriosam? Possimus in commodi odit totam modi exercitationem et maxime qui aperiam, voluptatem, quo alias cumque necessitatibus? Cumque atque omnis, alias facilis labore eveniet tempore doloribus ipsa. Reiciendis numquam veniam unde accusamus!</div>
+<br><br><br><br> <br><br>
+<span id="s">content:9384265825 <img src="book_15480820.png" alt="Contact"width="30px"></span>
+<span id="c">copyright <img src="copyright-symbol.png" alt="copyright" width="30px"></span>
+
+</footer>
+
+</body>
+</html>
+
+
+*{
+    margin: 0px;
+    padding: 0px;
+    text-decoration: none;
+}
+
+.bg{
+    background: #100029;
+    border-radius: 40px;
+    padding-left: 20px;
+    padding-top: 30px;
+    height: 50px;
+    ;
+
+}
+a:visited{
+    color: red;
+
+
+}
+a:hover{
+    background: #8eb9eb;
+    text-decoration: underline;
+    border: 5px  solid #84bce2;
+}
+a:focus{
+    background: #8eb9eb;
+    color: white;
+    border: 5px  solid #84bce2;
+}
+a:active{
+    color: chocolate;
+}
+ul,h1,li{
+    display: inline;
+    font-size: 25px;  
+
+
+}
+h1{
+    padding-left: 30px;
+}
+a{
+    color: yellow;
+}
+ul{
+    display: inline;
+    margin-left: 20%;
+
+}
+
+li,a{
+    margin-right: 5px;
+    padding-top: 10px;
+
+}
+
+.he{
+    color: yellow;
+    margin-left: 450px;
+    font-size: 25px;
+}
+
+main{
+    margin-left: 1%;
+    font-size: 40px;
+    width: 50%;
+    float: left;
+
+}
+
+.main{
+
+
+margin-top: 200px;
+float: left;
+
+}
+#Form{
+    margin-left: 20%;
+    font-size:60px;
+    color: #4b0d02;
+    box-shadow: 2px 2px 2px 2px black;
+
+}
+.name{
+    margin-left: 10%;
+    font-size: 40px;
+
+
+}
+#n{
+    color: floralwhite;
+    background: #225e00;
+    width: 50%;
+    height: 40px;
+    font-size: 20px;
+    padding-left: 10px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 2px 2px black;
+}
+.password{
+        margin-left: 10%;
+        font-size: 40px;
+}
+#p{
+    color: floralwhite;
+    background: #225e00;
+    width: 50%;
+    height: 40px;
+    font-size: 20px;
+    padding-left: 10px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 2px 2px black;
+}
+
+.mobile{
+
+        margin-left: 10%;
+        font-size: 40px;
+}
+#m{
+    color: floralwhite;
+    background:#225e00;
+    width: 50%;
+    height: 40px;
+    font-size: 20px;
+    padding-left: 10px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 2px 2px black;
+}
+.submit{
+    margin-top: 10px;
+    margin-left: 10%;
+    color: black;
+    background: #225e00;
+    font-size: 15px;
+    width: 150px;
+    height: 40px;
+    border-radius: 20px;
+    box-shadow: 2px 2px 2px 2px black;
+
+}
+td,th{
+
+    position: relative;
+   margin-left: 10px;
+    color: rgb(0, 0, 0);
+    border: rgb(59, 129, 86);
+    border:3px;
+    border-style:solid;
+    border-color: rgb(219, 9, 61);
+    border: collapse;
+    padding: 10px;
+    font-size: 25px;
+    clear: left;
+}
+table{
+    border-collapse: collapse;
+
+}
+.foot{
+    position: relative;
+    margin-top: 50px;
+    text-align:left;
+    font-size: 30px;
+
+}
+#s{
+    margin-left: 25%;
+    font-size: 30px;
+    margin-top: 30px;
+    border: 3px;
+    border-color: red;
+    border-style: solid;
+    padding: 15px;
+    border-radius: 15px;
+    box-shadow: 3px 3px 3px 3px black;
+}
+#c{
+    position: relative;
+    left: 25%;
+    margin-top: 30px;
+    font-size: 30px;
+    border: 3px;
+    border-color: red;
+    border-style: solid;
+    padding: 15px;
+    border-radius: 15px;
+    box-shadow: 3px 3px 3px 3px black;
+}
