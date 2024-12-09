@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bank-accont</title>
+    <style>
+        label{
+            display: flex;
+            margin-left: 25%;
+            margin-top: 3%;
+            font-weight: 800;
+        }
+        input{
+            display: flex;
+            margin-left: 25%;
+            
+        }
+button{
+    display: flex;
+            margin-left: 25%;
+            margin-top: 2%;
+}
+    </style>
+</head>
+<body style="background-color:pink;">
+   
+    <label for="">Accont-Number:</label>
+    <input id="input" type="text" placeholder="enter-number">
+    <label for="">Account-Holder</label>
+    <input  id="holder" type="text" >
+    <label for="">balance:</label>
+    <input id="bal" type="text"  >
+    <label for="">withal-amount:</label>
+    <input type="text"  id="w-am">
+    <button type="submit" onclick="convert()">submit</button>
+    <h1 id="Ac-nu"></h1>
+    <script>
+
+        function convert(){
+
+       const val = Number(document.getElementById('input').value)
+       const n = document.getElementById("holder").value
+       const bal =Number(document.getElementById("bal").value)
+       const wamount =  Number(document.getElementById("w-am").value)
+       let newbal= bal-wamount
+        const result= document.getElementById("Ac-nu")
+        result.innerHTML =`Ac-number:${val} | Ac-holder:   ${n}| balance ${bal} |newbalance ${newbal}|`
+        
+        document.getElementById('Ac-nu').style.color="red"  
+        document.getElementById('Ac-nu').style.background="black"
+        document.getElementById('Ac-nu').style.padding= '10px'
+
+    }
+
+       
+
+    </script>
+    
+</body>
+</html>
