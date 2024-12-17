@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Remember-time</title>
+    <style>
+        body{
+            background: pink;
+        }
+        #input1{
+            width:calc(50%);
+            height: 40px;
+            font-size: 25px;
+            padding-left:10px;
+            margin-top: 20%;
+            margin-left: 20%;
+            display: block;
+            border:black;
+            border-width: 4px;
+            border-style:solid;
+            border-radius: 20px;
+        }
+        #button1{
+            width: 10%;
+            height: 40px;
+            margin-left: 40%;
+            margin-top: 5%;
+            border-radius: 20px;
+        }
+        #write{
+            margin-left: 25%;
+            
+        }
+        #clear1{
+            width: 10%;
+            height: 40px;
+            margin-left: 40%;
+            margin-top: 5%;
+            border-radius: 20px;
+        }
+        .clear{
+            width: 100px;
+            height: 50px;
+            font-size: 25px;
+            margin-left: 20%;
+        }
+    </style>
+</head>
+<body> 
+    <input id="input1" type="text"  >
+    <button id="button1" onclick="button()"> Add</button>  
+    <h1 id="write"></h1> 
+    
+
+   <script>
+    function button() {
+   var input123 = document.getElementById("input1").value;
+   document.getElementById("write").innerHTML=input123;
+
+var clear1 = document.createElement("button");
+    clear1.textContent = "clear";
+    clear1.classList.add("clear");
+
+
+    clear1.onclick = function() {
+                    document.getElementById("write").innerHTML=""
+                    
+                };
+    
+                write.appendChild(clear1);
+                
+ }
+      
+ 
+
+  
+  </script>
+ </body>
+</html>
+
+
